@@ -121,6 +121,12 @@ const SEO = props => {
           content={SEO_BAIDU_SITE_VERIFICATION}
         />
       )}
+      {SEO_BIND_SITE_VERIFICATION && (
+        <meta
+          name='msvalidate.01'
+          content={SEO_BIND_SITE_VERIFICATION}
+        />
+      )}
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <meta property='og:locale' content={lang} />
