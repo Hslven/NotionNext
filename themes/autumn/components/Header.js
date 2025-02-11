@@ -2,6 +2,7 @@ import { siteConfig } from '@/lib/config'
 import { MenuList } from './MenuList'
 import { SocialButton } from './SocialButton'
 import LazyImage from '@/components/LazyImage'
+import React, { Fragment } from "react"
 
 export const Header = props => {
   const renderContent = index => {
@@ -13,7 +14,7 @@ export const Header = props => {
         className={`rounded-xl bg-white/[.6] w-full py-4 px-5 backdrop-blur-sm transition duration-300 relative bottom-5 ${!isVisible ? 'invisible' : ''}`}
         style={{ order }}>
         <div className='flex items-center'>
-          <div className='hover:rotate-45 hover:scale-125 transform duration-200 z-50'>
+          <div className='hover:scale-125 transform duration-200 z-50'>
             <LazyImage
               className='rounded-full shadow-lg pointer-events-none select-none'
               src={props?.avatar || siteConfig('AVATAR')}
@@ -44,7 +45,9 @@ export const Header = props => {
       <div
         style={{ backgroundImage: `url(${siteConfig('HOME_BANNER_IMAGE')})` }}
         className={`max-w-[var(--content-width)] size-full px-5 flex justify-center items-center flex-col relative bg-cover bg-center gap-4`}>
-        {Array.from({ length: 3 }).map((_,index) => renderContent(index))}
+        {Array.from({ length: 3 }).map((_, index) => (
+          <Fragment key={index}>{renderContent(index)}</Fragment>
+        ))}
         <div className='absolute w-full bottom-0 px-5'>
           <MenuList {...props} />
         </div>

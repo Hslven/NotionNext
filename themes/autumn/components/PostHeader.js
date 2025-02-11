@@ -12,7 +12,7 @@ export const PostHeader = props => {
           <span className='mr-3 text-gray-300 text-sm sm:text-base font-normal flex justify-center items-center'>
             {post?.date?.start_date || post?.createdTime}
           </span>
-          <WordCount/>
+          <WordCount wordCount={post?.wordCount} readTime={post?.readTime} />
         </div>
       ) : (
         <div className='my-2'></div>
