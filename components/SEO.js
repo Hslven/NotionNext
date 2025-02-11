@@ -65,6 +65,12 @@ const SEO = props => {
     NOTION_CONFIG
   )
 
+  const SEO_BIND_SITE_VERIFICATION = siteConfig(
+    'SEO_BIND_SITE_VERIFICATION',
+    null,
+    NOTION_CONFIG
+  )
+
   const SEO_GOOGLE_SITE_VERIFICATION = siteConfig(
     'SEO_GOOGLE_SITE_VERIFICATION',
     null,
