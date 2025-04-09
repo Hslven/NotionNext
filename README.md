@@ -208,3 +208,8 @@ The MIT License.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tangly1024/NotionNext&type=Date)](https://star-history.com/#tangly1024/NotionNext&Date)
+
+
+收录相关：
+https://docs.tangly1024.com/article/notion-next-search-engine-index
+站点地图：url/sitemap.xml
