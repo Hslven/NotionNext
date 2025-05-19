@@ -41,7 +41,7 @@ export const Header = props => {
   return (
     <header
       style={{ backgroundColor: `${siteConfig('AUTUMN_BANNER_BG_COLOR')}` }}
-      className='w-full h-[430px] flex justify-center z-10'>
+      className='w-full flex justify-center z-10 h-full'>
       <div
         style={{ backgroundImage: `url(${siteConfig('HOME_BANNER_IMAGE')})` }}
         className={`max-w-[var(--content-width)] size-full px-5 flex justify-center items-center flex-col relative bg-cover bg-center gap-4`}>
