@@ -11,7 +11,7 @@ export const Header = props => {
 
     return (
       <div
-        className={`rounded-xl bg-white/[.6] w-full py-4 px-5 backdrop-blur-sm transition duration-300 relative bottom-5 ${!isVisible ? 'invisible' : ''}`}
+        className={`rounded-xl bg-white/[.6] w-full py-4 px-5 backdrop-blur-sm transition duration-300 relative bottom-5 ${!isVisible ? 'invisible' : ''} mb-8`}
         style={{ order }}>
         <div className='flex items-center'>
           <div className='hover:scale-125 transform duration-200 z-50'>
