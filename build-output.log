@@ -1,0 +1,72 @@
+
+> notion-next@4.8.3 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.4
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · scrollRestoration
+
+   Skipping linting
+   Checking validity of types ...
+   Creating an optimized production build ...
+[默认主题] /vercel/sandbox/primary/themes/autumn
+Failed to compile.
+
+./components/PrismMac.js
+Module not found: Can't resolve 'prismjs'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/NotionPage.js
+./lib/rss.js
+./pages/index.js
+
+./components/PrismMac.js
+Module not found: Can't resolve 'prismjs/plugins/toolbar/prism-toolbar'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/NotionPage.js
+./lib/rss.js
+./pages/index.js
+
+./components/PrismMac.js
+Module not found: Can't resolve 'prismjs/plugins/toolbar/prism-toolbar.min.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/NotionPage.js
+./lib/rss.js
+./pages/index.js
+
+./components/PrismMac.js
+Module not found: Can't resolve 'prismjs/plugins/show-language/prism-show-language'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/NotionPage.js
+./lib/rss.js
+./pages/index.js
+
+./components/PrismMac.js
+Module not found: Can't resolve 'prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/NotionPage.js
+./lib/rss.js
+./pages/index.js
+
+
+> Build failed because of webpack errors
