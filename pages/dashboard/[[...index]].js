@@ -41,6 +41,7 @@ export async function getStaticProps({ locale }) {
   // 无法获取文章
   if (!props?.post) {
     props.post = null
+    delete props.allPages
     return {
       props,
       revalidate: process.env.EXPORT
