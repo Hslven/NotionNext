@@ -23,6 +23,15 @@ export const Footer = () => {
             NotionNext
           </Link>
         </p>
+        <p className='mx-6 mt-2 text-left text-xs text-gray-500 font-bold relative z-20'>
+          <a
+            href='https://beian.miit.gov.cn/'
+            target='_blank'
+            rel='noreferrer'
+            className='hover:underline text-gray-700'>
+            粤ICP备2024277980号
+          </a>
+        </p>
       </div>
     </footer>
   )
